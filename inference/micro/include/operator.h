@@ -5,7 +5,7 @@ public:
     Operator();
 
     virtual std::vector<TensorDesc> inferOutputSize(
-        std::vector<TensorDesc> inputDescs, void *paramaters) = 0;
+        std::vector<TensorDesc> inputDescs, void *parameters) = 0;
 
     virtual std::string generateImplementation(
         Arch arch, std::vector<TensorDesc> inputDescs, void *parameters) = 0;

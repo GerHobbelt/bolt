@@ -4,7 +4,7 @@ class Convolution ::Operator {
 public:
     // use tensor_computing interface or rewrite
     std::vector<TensorDesc> inferOutputSize(
-        std::vector<TensorDesc> inputDescs, void *paramaters) override
+        std::vector<TensorDesc> inputDescs, void *parameters) override
     {}
 
     std::string generateImplementation(
